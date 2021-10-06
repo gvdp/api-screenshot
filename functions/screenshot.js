@@ -103,7 +103,7 @@ async function handler(event, context) {
   } else if(size === "large") {
     // 0.5625 aspect ratio not supported on large
     if(aspectratio === "1:1") {
-      viewport = [1024, 1024];
+      viewport = [1920, 1080];
     }
   } else if(size === "opengraph") {
     // ignores aspectratio
